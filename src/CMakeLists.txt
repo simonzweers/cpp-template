@@ -6,3 +6,8 @@ list(
 )
 
 add_executable(${PROJECT_NAME} ${sources})
+
+target_link_libraries(
+	${PROJECT_NAME}
+	spdlog::spdlog
+)
