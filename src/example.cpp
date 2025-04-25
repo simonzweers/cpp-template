@@ -2,5 +2,5 @@
 #include <cstdio>
 
 void lib_hello() {
-	printf("Library Says Hello\n");
+    printf("Library Says Hello\n");
 }
